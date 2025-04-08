@@ -1,0 +1,32 @@
+.main {
+  padding: 24px 0;
+  border-bottom: 1px solid #ffff00;
+}
+
+.main__button-start {
+  margin-top: 200px;
+  padding: 1.5rem 3rem;
+  border: 3px solid #ffffff;
+  border-radius: 12px;
+
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Comfortaa", cursive;
+  text-shadow: 1px 1px 0 #fff;
+  cursor: pointer;
+
+  transition: all 0.2s ease-in-out;
+  background: linear-gradient(135deg, #ffff00, #00ffe1);
+  box-shadow: 6px 6px 0 #000, 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.main__button-start:hover {
+  transform: scale(1.05);
+  box-shadow: 6px 6px 0 #000, 0 8px 18px rgba(0, 0, 0, 0.4);
+}
+
+.main__button-start:active {
+  transform: scale(0.98);
+  box-shadow: 3px 3px 0 #000, 0 3px 10px rgba(0, 0, 0, 0.4);
+}

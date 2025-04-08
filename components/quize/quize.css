@@ -1,0 +1,27 @@
+.quize {
+}
+
+.quize__question {
+  font-family: "Rubik";
+  color: #f0efff;
+}
+
+.quize__answers {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+
+.quize__answer-container {
+}
+
+.quize__picture {
+  width: 167px;
+  height: 167px;
+  object-fit: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.quize__answer {
+}

@@ -1,1 +1,18 @@
 @import url("normalize.css");
+@import url("../fonts/fonts.css");
+
+@import url("../../components/page/page.css");
+@import url("../../components/header/header.css");
+@import url("../../components/main/main.css");
+@import url("../../components/footer/footer.css");
+@import url("../../components/quize/quize.css");
+@import url("../../components/container/container.css");
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: linear-gradient(135deg, #5e2ca5, #ff4fcb);
+}
