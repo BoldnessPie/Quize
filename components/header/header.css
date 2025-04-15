@@ -1,31 +1,17 @@
 .header {
-  border-bottom: 1px solid #ffff00;
+  padding: 3rem 0;
+
+  border-bottom: 1px solid var(--green-mint);
 }
 
 .header__title {
   margin: 0;
-  padding: 50px 0;
 
   font-family: "Russo One";
-  font-size: 2.8rem;
-  color: #00ffe1;
-  text-shadow: 1px 1px 0 rgb(191, 255, 0);
-}
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
 
-@media screen and (min-width: 768px) {
-  .header__mobile-break {
-    display: none;
-  }
-
-  .header__title {
-    padding: 40px 0;
-
-    font-size: 4rem;
-  }
-
-  .header__flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  color: var(--cian-bright);
+  text-shadow: 0 0 5px var(--neon-pink);
 }

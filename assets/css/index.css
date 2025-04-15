@@ -4,15 +4,40 @@
 @import url("../../components/page/page.css");
 @import url("../../components/header/header.css");
 @import url("../../components/main/main.css");
-@import url("../../components/footer/footer.css");
-@import url("../../components/quize/quize.css");
+@import url("../../components/quiz/quiz.css");
 @import url("../../components/container/container.css");
+@import url("../../components/button/button.css");
 
-html,
-body {
+:root {
+  --neon-pink: #ff00cc;
+  --cian-bright: #00ffff;
+  --blue-electric: #0033ff;
+  --yellow-poisoned: #ffff00;
+  --violet-dark: #1a0033;
+  --indigo-cosmic: #330066;
+  --black-deep: #000000;
+  --white: #ffffffda;
+  --green-mint: #00ff99;
+  --red: #ff0033;
+
+  --right-answer: var(--green-mint);
+  --wrong-answer: var(--red);
+}
+
+html {
+  height: auto;
   min-height: 100%;
 }
 
 body {
-  background: linear-gradient(135deg, #5e2ca5, #ff4fcb);
+  margin: 0;
+  height: 100vh;
+  color: var(--white);
+
+  font-family: "Rubik", sans-serif;
+
+  background: linear-gradient(to bottom, #1a0033, #330066);
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+  background-size: cover;
 }

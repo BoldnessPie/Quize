@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,28 +11,42 @@
     <div class="page">
       <header class="header">
         <div class="container">
-          <div class="header__flex-container">
-            <h1 class="header__title">
-              Victorina<br class="header__mobile-break" />
-              Go&#769;vna
-            </h1>
-          </div>
+          <h1 class="header__title">Викторина для родных</h1>
         </div>
       </header>
 
       <main class="main">
         <div class="container">
-          <div class="main_container">
-            <button class="main__button-start">Начинаем викторину!</button>
+          <div class="quiz">
+            <section class="quiz__description">
+              <h4 class="quiz__description-title">Правила викторины</h4>
+              <div class="quiz__description-body">
+                <p class="quiz__description-text">
+                  1. В викторине 10 вопросов, с разным количеством вариантов (в
+                  среднем 4 на вопрос)
+                </p>
+                <p class="quiz__description-text">
+                  2. Количество очков варьируется от 0 до 2 максимум. Возможен
+                  случай, когда участник получает 1 очко
+                </p>
+                <p class="quiz__description-text">
+                  3. Чтобы дать ответ, нажмите на кнопку. Для самых маленьких:
+                  кнопка - это там где написан ответ на вопрос
+                </p>
+                <p class="quiz__description-text">
+                  4. Викторина без лимита времени, да собственно, а что такое
+                  время? Что такое лимит? Эта викторина для убер-меншей
+                </p>
+              </div>
+            </section>
+
+            <section class="quiz__run">
+              <p class="quiz__text">Желаю хорошенько повеселиться, удачи!</p>
+              <button class="button button_quiz-run">Старт</button>
+            </section>
           </div>
         </div>
       </main>
-
-      <footer class="footer">
-        <div class="container">
-          <p class="footer__text">&COPY; Туз защищен полностью.</p>
-        </div>
-      </footer>
     </div>
   </body>
 </html>
